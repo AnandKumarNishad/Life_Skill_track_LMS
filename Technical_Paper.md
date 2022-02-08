@@ -9,8 +9,15 @@ A request from client to the server is sent in the form of web URL as HTTP GET o
 
 ![This is the process how REST works](https://media.geeksforgeeks.org/wp-content/uploads/qqqqqqq-1-1024x219.jpeg)
 
-
+In **HTTP** there are five menthods commonly used i REST based architecture. They are:
+1. **GET:** used to **read**(or retrieve) a representation of a resource.
+2. **POST:** used to **create** new resources.
+3. **PUT:** used for **updating** the capabilities.
+4. **PATCH:** used for **modifying** capabilities.
 
 
 # References
 - https://www.researchgate.net/publication/325770704_An_Analysis_of_Public_REST_Web_Service_APIs
+- https://www.geeksforgeeks.org/rest-api-introduction/?ref=lbp
+- https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html
+- 
