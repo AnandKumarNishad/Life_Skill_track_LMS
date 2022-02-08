@@ -44,4 +44,3 @@ There are certain rules to be followed while creating REST API endpoints.
 - https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html
 - https://www.geeksforgeeks.org/rest-api-architectural-constraints/?ref=lbp
 - https://idratherbewriting.com/learnapidoc/docapis_writing_process_overview.html
-- myfirstthesis.c23434.net/Paper/
