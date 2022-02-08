@@ -7,7 +7,7 @@ Web services which follow the REST architectural style are known as RESTful web 
 ## Working
 A request from client to the server is sent in the form of web URL as HTTP GET or POST or PUT or DELETE request. After that a response comes back from the server in form of resource which can anything like XML, JSON, image or HTML.
 
-![This is the process how REST works](https://media.geeksforgeeks.org/wp-content/uploads/qqqqqqq-1-1024x219.jpeg)
+![This is the process how REST works](https://phpenthusiast.com/theme/assets/images/blog/what_is_rest_api.png)
 
 In **HTTP** there are five menthods commonly used i REST based architecture. They are:
 1. **GET:** used to **read**(or retrieve) a representation of a resource.
@@ -44,3 +44,4 @@ There are certain rules to be followed while creating REST API endpoints.
 - https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html
 - https://www.geeksforgeeks.org/rest-api-architectural-constraints/?ref=lbp
 - https://idratherbewriting.com/learnapidoc/docapis_writing_process_overview.html
+- https://phpenthusiast.com/blog/what-is-rest-api
