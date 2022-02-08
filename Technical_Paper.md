@@ -28,11 +28,20 @@ There are six architechtural constraints which makes any web service
 - **Layered System:** *An application architecture needs to be composed of multiple layers.* Each layer doesn’t know any thing about any layer other than that of immediate layer and there can be lot of intermediate servers between client and the end server. 
 - **Code on Demand:** It is an optional feature. According to this, *servers can also provide executable code to the client.*
 
+## **Rules of REST API**
+There are certain rules to be followed while creating REST API endpoints.
+- The URI of a REST API should always end with noun.
+- HTTP verbs are used to identify actions.
+- Always use plural in URL to keep API URL consistent.
+- Send proper HTTP code to indicate a success or error status.
+- A web application should be organized into resources like users and then HTTP verbs.
 
 
-# References
+
+## References
 - https://www.researchgate.net/publication/325770704_An_Analysis_of_Public_REST_Web_Service_APIs
 - https://www.geeksforgeeks.org/rest-api-introduction/?ref=lbp
 - https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html
 - https://www.geeksforgeeks.org/rest-api-architectural-constraints/?ref=lbp
-- 
+- https://idratherbewriting.com/learnapidoc/docapis_writing_process_overview.html
+- myfirstthesis.c23434.net/Paper/
