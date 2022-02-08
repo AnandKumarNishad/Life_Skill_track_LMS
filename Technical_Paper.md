@@ -9,14 +9,15 @@ A request from client to the server is sent in the form of web URL as HTTP GET o
 
 ![This is the process how REST works](https://phpenthusiast.com/theme/assets/images/blog/what_is_rest_api.png)
 
-In **HTTP** there are five menthods commonly used i REST based architecture. They are:
+In **HTTP** there are five menthods commonly used in REST based architecture. They are:
 1. **GET:** used to **read**(or retrieve) a representation of a resource.
 2. **POST:** used to **create** new resources.
 3. **PUT:** used for **updating** the capabilities.
 4. **PATCH:** used for **modifying** capabilities.
+5. **DELETE:** used to **delete** a resource indentified by a URI.
 
 ## Architectural Constraints
-There are six architechtural constraints which makes any web service
+There are six architechtural constraints which makes any web service. They are:
 - **Uniform Interface:** it is a key constraint that differentiates between REST API and NON-REST API. It suggests that *there should be an uniform way of interacting with a given server irrespective of device or type of application*. There are four principle of Uniform Interface: 
     - **Resource-Based**
     - **Manipulation of resources through representation**
