@@ -15,9 +15,24 @@ In **HTTP** there are five menthods commonly used i REST based architecture. The
 3. **PUT:** used for **updating** the capabilities.
 4. **PATCH:** used for **modifying** capabilities.
 
+## Architectural Constraints
+There are six architechtural constraints which makes any web service
+- **Uniform Interface:** it is a key constraint that differentiates between REST API and NON-REST API. It suggests that *there should be an uniform way of interacting with a given server irrespective of device or type of application*. There are four principle of Uniform Interface: 
+    - **Resource-Based**
+    - **Manipulation of resources through representation**
+    - **Self-descriptive Message**
+    - **Hypermedia as the Engine of application state (HATEOAS)**
+- **Stateless:** It means that *the necessary state to handle the request is contained within the request itself and server would not store anything related to the session.*
+- **Cacheable:** *Every response should include whether the response is cacheable or not* and for how much duration responses can be cached at the client side
+- **Client-server:** *REST application should have a client-server architecture*. A Client is someone who is requesting resources and are not concerned with data storage, which remains internal to each server, and server is someone who holds the resources and are not concerned with the user interface or user state
+- **Layered System:** *An application architecture needs to be composed of multiple layers.* Each layer doesn’t know any thing about any layer other than that of immediate layer and there can be lot of intermediate servers between client and the end server. 
+- **Code on Demand:** It is an optional feature. According to this, *servers can also provide executable code to the client.*
+
+
 
 # References
 - https://www.researchgate.net/publication/325770704_An_Analysis_of_Public_REST_Web_Service_APIs
 - https://www.geeksforgeeks.org/rest-api-introduction/?ref=lbp
 - https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html
+- https://www.geeksforgeeks.org/rest-api-architectural-constraints/?ref=lbp
 - 
